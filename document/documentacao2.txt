@@ -1,0 +1,11 @@
+*Sobre o projeto:
+
+    O projeto do "A voz do Brasil" é uma versão melhorada de um site anterior a esse, sendo sua finalidade uma playlist de músicas onde serveria como uma atividade avaliativa para testes de conhecimento obtidos em HTML e CSS básicos no curso de ensino médio técnico de informática para a web oferecido pela unidade da ETEC no bairro da Cidade Tiradentes, em SP. Porém, com o avanço do tempo e da habilidade do autor o projeto, foi feito essa nova versão, para além de testar os conhecimentos obtidos em HTML, CSS e agora javaScript, ter uma série de projetos prontos e bons para a construção de um bom portfólio.
+    Agora, o objetivo central desse site ainda se mantém, ser um site de playlist de músicas MPB (Música popular brasileira) e ter como funcionalidade principal, o salvamento das músicas em um local próprio. 
+
+*Sobre o escritor:
+
+    Vinícius Martins de Paiva, aluno da unidade da ETEC da Cidade Tiradentes, é responsável pela criação desse e muitos outros sites, sempre tentando aprimorar suas habilidades em diferentes tecnologias, seus contatos estão nessa página caso queira falar de negócios ou acompanhar tal jornada.
+
+*Sobre a ETEC:
+     A ETEC da Cidade Tiradentes é responsável por formar bons técnicos em diversas áreas com seus cursos técnicos, a informática é uma delas, não só cursos de tecnologia quando se tem a possibilidade de outros como: Nutrição, segurança do trabalho, administração, recursos humanos, desenvolvimento de sistemas, química, farmácia, etc. Para saber mais, acesse:

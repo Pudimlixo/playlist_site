@@ -1,0 +1,300 @@
+/*Definir configuração charset para Unicode*/
+
+:root{
+    --cor1:#122969ee;
+    --cor2:#030644;
+    --cor4:#3f5d9c;
+    --cor5:#bfc0f5;
+    --cor6:rgb(37, 141, 59);
+    --cor7:#e8f34b;
+    --fonte-paragrafo:'Arial';
+    --fonte-principal:'Dancing Script';
+    --fonte-link:'Figtree';
+    --fonte-secundaria:'Caveat';
+    --fonte-tercearia:'Red Hat Display';
+}
+
+body{
+    margin:0;
+    display:flex;
+    flex-direction: row;
+    overflow-x: none;
+}
+
+body p{
+      font-family: var(--fonte-paragrafo);
+}
+
+aside#cabecalho-esquerdo{
+    width:550px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(40deg, #122969ee,#3557b4ee,#e8f34b,rgb(37, 141, 59));
+    height:100vh;
+    position: fixed;
+    overflow-y: none;
+}
+
+aside#cabecalho-esquerdo picture{
+    margin-top: 10px;
+    margin-left: 10px;
+    display:flex;
+    justify-content: start;
+    width:100%;
+    margin-bottom: 0px;
+}
+
+aside#cabecalho-esquerdo picture img{
+    width:70px;
+}
+
+aside#cabecalho-esquerdo header{
+    text-align: center;
+    margin: auto;
+}
+
+aside#cabecalho-esquerdo header div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+aside#cabecalho-esquerdo header #container-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width:200px;
+    height:30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
+}
+
+aside#cabecalho-esquerdo header #container-bar img{
+    width:20px;
+    height:20px;
+}
+
+aside#cabecalho-esquerdo header #container-bar input{
+    height:30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+aside#cabecalho-esquerdo header #container-bar input:hover{
+    outline: none;
+    border: none;
+}
+
+aside#cabecalho-esquerdo header h1{
+    font-size: 3em;
+    color: var(--cor2);
+    font-family: var(--fonte-principal);
+}
+
+aside#cabecalho-esquerdo header h2{
+    font-size: 1.8em;
+    color:rgb(231, 79, 8);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
+    font-family:var(--fonte-secundaria) ;
+}
+
+aside#cabecalho-esquerdo header p{
+    color:var(--cor2);
+}
+
+main h3#destaque-playlist{
+    text-align: left;
+    margin-left: 45px;
+    font-family: var(--fonte-tercearia);
+    color:var(--cor5);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+}
+
+aside#musicas-direita{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    width:100%;
+    background: linear-gradient(90deg, #204594, #334d81,#5479c9);
+    width: calc(100vw - 550px); 
+    margin-left: 550px;
+    height: 100vh; 
+    overflow-y: auto; 
+    box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.253);
+}
+
+aside#musicas-direita nav{
+    width:100%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+aside#musicas-direita nav ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+aside#musicas-direita nav ul li{
+    margin-right: 35px;
+}
+
+aside#musicas-direita nav ul li a{
+    color:var(--cor2);
+    font-size: 20px;
+    font-family:var(--fonte-link);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+aside#musicas-direita nav ul a:hover{
+    font-size:23px;
+    text-shadow: 1px 1px 10px rgba(245, 245, 245, 0.445);
+    text-decoration: underline;
+}
+
+main aside{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap:35px;
+}
+
+main aside div{
+    background-color: whitesmoke;
+    width:200px;
+    height:330px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.315);
+    padding:10px;
+}
+
+main aside div p{
+    font-family: var(--fonte-secundaria);
+    color:var(--cor4);
+    font-size: 1.2em;
+}
+
+main aside div h3{
+    font-family: var(--fonte-tercearia);
+    color:var(--cor2);
+}
+
+main aside div picture img{
+    margin-top: 0;
+    width:150px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+    transition: 0.5s;
+}
+
+
+main aside div picture img:hover{
+    margin-top: -15px;
+    width:150px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.301);
+}
+
+main aside div picture img:active{
+    width:140px;
+    
+}
+
+footer{
+    padding-bottom: 30px;
+}
+
+footer h2{
+    font-size: 1.8em;
+    color:rgb(231, 79, 8);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.637);
+    font-family:var(--fonte-secundaria) ;
+}
+
+footer div picture img{
+    width:40px;
+    margin-right:15px;
+    border-radius: 50%;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.438);
+    transition: 0.5s;
+}
+
+footer div picture img:hover{
+    width:45px;
+    box-shadow:2px 2px 20px rgba(0, 0, 0, 0.438);
+}
+
+footer a{
+    color:var(--cor2);
+    font-size: 1em;
+    font-family:var(--fonte-link);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer a:hover{
+    font-size:18px;
+    text-shadow: 1px 1px 10px rgba(245, 245, 245, 0.445);
+    text-decoration: underline;
+}
+
+/*Configuração pra deixar site responsivo*/
+
+@media (max-width: 850px) {
+    body {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    aside#cabecalho-esquerdo {
+        width: 100%;
+        height: auto; 
+        position: relative; 
+    }
+
+    aside#musicas-direita {
+        width: 100%; 
+        margin-left: 0;
+        height: auto;
+    }
+    #destaque-playlist{
+        margin-left: 10px;
+    }
+    main aside{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside#cabecalho-esquerdo header h1{
+        font-size: 2em;
+    }
+
+    aside#cabecalho-esquerdo header h2{
+        font-size: 1.2em;
+    }
+
+    aside#musicas-direita nav{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        background:linear-gradient(90deg, #122969ee,#3557b4ee);
+        overflow-y: none;
+    }
+
+    aside#musicas-direita nav ul li{
+        margin-right: 10px;
+    }
+
+    aside#musicas-direita nav ul li a{
+        font-size: 15px;
+    }
+}

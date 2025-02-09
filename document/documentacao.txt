@@ -1,0 +1,16 @@
+Nome do site: A voz do Brasil
+Slogan do site: As músicas que formam a alma brasileira
+
+Músicas disponíveis na playlist:
+- Ela é amiga da minha mulher. - Seu Jorge
+- Cálice. Chico Buarque
+- Exagerado. - Cazuza
+- Garota de Ipanema. - Tom Jobim e Vinícius de Moraes
+- Ovelha negra. - Rita Lee
+- Não tem mais nós dois. - Resenha da Blakk
+- Idiota. - Jão
+- Até que durou. - Menos é mais
+- Só os loucos sabem. - Charlie Brown Jr.
+- Dias de luta, Dias de glória. - Charlie Brown Jr.
+
+*Cada página da música vai ter suas respectivas letras e descrições
